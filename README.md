@@ -9,6 +9,7 @@ So I asked him, how do you do it? One word: Arbitrage. I had heard of the term b
 
 He said he does it with a program named OddsJam (https://oddsjam.com/), which he paid for, and it gave him the lines to bet on. This was epic. I now had access to the same resource he used so I could make my own money.
 
+There are other websites that offer the same service, but OddsJam is the one I ended up using. It is a relatively expensive service, but I had no issues with the platform and the support is awesome.
 
 ## How I Began
 
