@@ -47,6 +47,15 @@ A no-sweat bet is one that if the bet loses, you get a portion (usually 100%) of
 
 Let's use the same lines of +300 and -350, and say the no-sweat bet is for $50. Similar rules apply, but now we factor in the bonus bet money we get if that line loses, simplified to 70% of the bonus bet amount.
 
+So if no-sweat line wins, it earns
+
+$50 \cdot 4 - 50 = 150$
+
+Then we calculate a hedge bet as (Where $50 \cdot 0.7$ is the amount we win from the given bonus bet) 
+
+$\frac{50 \cdot 4 + 50 - 50 \cdot 0.7}{1.2857 + 1} = 94.06$
+
+
 ### Profit Boost
 
 
