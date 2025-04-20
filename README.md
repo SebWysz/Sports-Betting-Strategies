@@ -27,7 +27,7 @@ $50 \cdot 4 = 200$
 
 But since we don't include the $50 initial bet, we have a payout of $150. Then the hedge bet is calculated as
 
-$ \frac{150}{1.2857} = 116.6679$
+$\frac{150}{1.2857} = 116.6679$
 
 But we would round to at least the nearest dollar, but usually the nearest 5 or 10 so the sportsbooks are less likely to catch on.
 
@@ -45,7 +45,7 @@ Then we take the lower profit (or average if you want) and say that is our conve
 ### No Sweat
 A no-sweat bet is one that if the bet loses, you get a portion (usually 100%) of your bet back as a bonus bet. This can be leveraged to make some money.
 
-Let's use the same lines of +300 and -350, and say the no-sweat bet is for $50. Similar rules apply, but now we factor in the bonus bet money we get if that line loses, simplified to 70% of the bonus bet amount.
+Let's use the same lines of +300 and -350, and say the no-sweat bet is for a maximum of $50. Similar rules apply, but now we factor in the bonus bet money we get if that line loses, simplified to 70% of the bonus bet amount.
 
 So if no-sweat line wins, it earns
 
@@ -53,15 +53,50 @@ $50 \cdot 4 - 50 = 150$
 
 Then we calculate a hedge bet as (Where $50 \cdot 0.7$ is the amount we win from the given bonus bet if no-sweat line loses) 
 
-$\frac{50 \cdot 4 + 50 - 50 \cdot 0.7}{1.2857} = 167.22$
+$\frac{50 \cdot 4 + 50 - 50 \cdot 0.7}{1.2857} = 128.33$
+
+Say we round this up to $130, then our profit if the no-sweat line wins is
+
+$50\cdot 4 - 50 - 130 = 20$
+
+And if the hedge bet wins
+
+$130 \cdot 1.2857 - 130 - 50 + 50\cdot 0.7 = 22.14$
+
+Guaranteed profit of at least $20, so we would call this a 40% ($\frac{20}{50}=0.4) conversion. A general good rate of conversion for these is around 50% imo.
 
 
 ### Profit Boost
+Profit boosts are promotions that increase your profit by the percent it says (Ex: 25%, 50%, 100%). Therefore it increases the line's decimal value, so it becomes a good arbitrage because of the changed payout.
 
+Let's use the same lines again of +300 and -350, and say the profit boost is 75% with a max bet of $50. We calculate the modified line's payout and then simply calculate as an arbitrage.
 
+So we calculate the 75% profit boost on the +300 line from the decimal value, but only the profit of 3x gets increased by 75%,
 
+$(4 - 1) \cdot 1.75 + 1 = 6.25$
+
+Converting that back into American odds, it is +525, which is the same as $300 \cdot 1.75 = 525$.
+
+Now we have an arbitrage, so we calculate our hedge bet since we know that the max bet of the profit boost is $50.
+
+$\frac{50 \cdot 6.25}{1.2857} = 243.06$
+
+Rounding this to $245, our profit if the profit boost line wins is calculated as
+
+$50 \cdot 6.25 - 50 - 245 = 17.5$
+
+And our profit if the hedge wins is
+
+$245 \cdot 1.2857 - 245 - 50 = 20$
+
+So we call this a 35% ($\frac{17.5}{50} = 0.35$) conversion.
 
 ## Arbitrage Math
+An arbitrage is possible if we look at two opposite lines and their American Odds sum is positive (if it's negative you lose money, and if it's zero, you neither gain nor lose if bet sizes are correct). This is probably the only nice thing about American odds in my opinion.
+
+Ex: A +300 and -350 line sums to -50, so not an arbitrage, but a +350 and a -300 line sums to +50, which is an arbitrage opportunity
+
+Say we do have the +350 and -300 lines. To calculate the percent arbitrage, we get the decimal odds...
 
 ## +EV Betting (and why I didn't do it)
 
