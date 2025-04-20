@@ -15,7 +15,42 @@ There are other websites that offer the same service, but OddsJam is the one I e
 
 First, I started by leveraging the sign up offers of the different books available in Illinois. If you have no accounts open yet, ideally you partner up with a friend who does have an account open so you can arbitrage the sign up offers of bonus bets. I personally had a DraftKings account open already, so I used that to convert FanDuel's bonus bets. From here, you just use whichever lines and books that have the best conversion rate out of the books you have accounts with. On average a bonus bet can be converted into real money at a 70% rate. Once you have some books open and a solid bankroll (either from the sign up offers or your own money; ~$500, but still possible with lower amounts), you can hit normal arbitrage opportunities that appear.
 
-## Bonus Bet Math
+## Promotion Conversion Math
+### Bonus Bets
+Bonus bets are extra leverage you can put on a line, so to earn a high conversion rate, usually the bonus bet line would be +200 or more while the hedge would be the opposite at around -200 or less.
+
+Assume we have two opposite lines that are +300 and -350 (bonus bet lines do not have to be an arbitrage for the conversion, although it would give a better rate sometimes). Converted to decimal, +300 odds becomes $\frac{300}{100} + 1 = 4$, and -350 becomes $\frac{100}{350} + 1= 1.2857$
+
+Then say we have a $50 bonus bet, so
+
+$50 \cdot 4 = 200$
+
+But since we don't include the $50 initial bet, we have a payout of $150. Then the hedge bet is calculated as
+
+$ \frac{150}{1.2857} = 116.6679$
+
+But we would round to at least the nearest dollar, but usually the nearest 5 or 10 so the sportsbooks are less likely to catch on.
+
+This calculation leaves us with the two outcomes (assume we hedge with $115$, the bonus bet line winning, in which case we earn a profit of
+
+$150-115 = 35$
+
+Or the hedge line winning, where we earn a profit of
+
+$115 \cdot 1.2857 - 115 = 32.8555$
+
+Then we take the lower profit (or average if you want) and say that is our conversion amount, $32.8555/50 = 0.657$. So this situation has a conversion rate of 65%.
+
+
+### No Sweat
+A no-sweat bet is one that if the bet loses, you get a portion (usually 100%) of your bet back as a bonus bet. This can be leveraged to make some money.
+
+Let's use the same lines of +300 and -350, and say the no-sweat bet is for $50. Similar rules apply, but now we factor in the bonus bet money we get if that line loses, simplified to 70% of the bonus bet amount.
+
+### Profit Boost
+
+
+
 
 ## Arbitrage Math
 
