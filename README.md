@@ -53,7 +53,7 @@ $50 \cdot 4 - 50 = 150$
 
 Then we calculate a hedge bet as (Where $50 \cdot 0.7$ is the amount we win from the given bonus bet if no-sweat line loses) 
 
-$\frac{50 \cdot 4 + 50 - 50 \cdot 0.7}{1.2857 + 1} = 94.06$
+$\frac{50 \cdot 4 + 50 - 50 \cdot 0.7}{1.2857} = 94.06$
 
 
 ### Profit Boost
