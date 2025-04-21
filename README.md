@@ -63,7 +63,7 @@ And if the hedge bet wins
 
 $130 \cdot 1.2857 - 130 - 50 + 50\cdot 0.7 = 22.14$
 
-Guaranteed profit of at least $20, so we would call this a 40% ($\frac{20}{50}=0.4$) conversion. A general good rate of conversion for these is around 50% imo.
+Guaranteed profit of at least 20 dollars, so we would call this a 40% ( $\frac{20}{50}=0.4$ ) conversion. A general good rate of conversion for these is around 50% imo.
 
 
 ### Profit Boost
@@ -96,10 +96,44 @@ An arbitrage is possible if we look at two opposite lines and their American Odd
 
 Ex: A +300 and -350 line sums to -50, so not an arbitrage, but a +350 and a -300 line sums to +50, which is an arbitrage opportunity
 
-Say we do have the +350 and -300 lines. To calculate the percent arbitrage, we get the decimal odds...
+Say we do have the +350 and -300 lines. To calculate the percent arbitrage, we get the decimal odds first.
+
+$350 / 100 + 1 = 4.5$
+
+$100 / 300 + 1 = 1.33$
+
+Then given an input for a maximum bet, say at most $300 on one line, we calculate the other side of the arbitrage as
+
+$\frac{300 \cdot 1.33}{4.5} = 88.66$
+
+Which we will round to $90. Then our profit if the $300 bet wins is
+
+$300 \cdot 1.33 - 300 - 90 = 9$
+
+And if the $90 line wins,
+
+$90 \cdot 4.5 - 90 - 300 = 15$
+
+The asymmetry in profit is due to the rounding. We would then call this a 2.3% arbitrage ($9 / (300 + 90) = 0.023$).
+
+That's really all there is to it. As long as you properly size your wager, there is no risk involved with this strategy.
 
 ## +EV Betting (and why I didn't do it)
 
++EV stands for positive expected value. It's a term in statistics that, when wagered on infinitely, you are expected to make money because you have an edge.
+
+On OddsJam, they calculate an expected value via a type of average on all the sportsbook's lines to get an expected probability of the event happening. Then if one line deviates significantly (the wager pays more than you should expect for the implied odds), it is a +EV bet that you should take. The software then calculates a bet size for you using how much percent edge you have over the market and the Kelly criterion (typically quarter Kelly) which is *very* important for this strategy. (The Kelly criterion is important because otherwise you could bankrupt your portfolio with a higher probability -- take a quarter of that, and you lessen both the risk and reward... and the chance of bankruptcy)
+
+However, there are some concerns I have with this strategy especially in the world of sportsbooks, in which I chose not to partake in this strategy.
+
+First, nobody really knows the true probability of a certain sports event occuring. If one book deviates significantly, there are two options. The book is smart, and knows something the other books don't, or the book made a mistake. When you're only taking one side of the spread, how should you know which is which? It's a game of imperfect information which can be lucrative, but I liked taking the assured gain, especially when it was so frequent.
+
+There is also a history of sportsbook lines and certain books are known to be "sharper" (better at setting true odds) than others. For example two of the sharpest sportsbooks I've heard of are Pinny and Circa Sports. They accept all bets and any size instead of limiting winning bettors. The books then use the information of when a sharp (smart) bettor places a bet to adjust their true odds. Their odds then lay where the money goes. Some people only average the sharp books' lines to calculate an implied probability which does better. I just never really got into it.
+
 ## How to track your cash
+You need to track your cash. Without some sort of ledger, cash might be disappearing right under your nose. My way of doing this was tracking it on OddsJam manually when I placed a bet, and also using Pikkit to automatically scrape betting accounts and accumulate the bets I have placed.
+
+With Pikkit, I am assured that I have been placing the correct bets. Since a lot of lines are very similar, this gives me peace of mind that I pressed the right buttons outside of OddsJam. OddsJam also provides a ways to sync your sportsbooks, but I wanted both a manual and automatic to assure my intentions matched my actions.
 
 ## Limits & End of an Era :/
+If you talk to any sharp
