@@ -63,7 +63,7 @@ And if the hedge bet wins
 
 $130 \cdot 1.2857 - 130 - 50 + 50\cdot 0.7 = 22.14$
 
-Guaranteed profit of at least $20, so we would call this a 40% ($\frac{20}{50}=0.4) conversion. A general good rate of conversion for these is around 50% imo.
+Guaranteed profit of at least $20, so we would call this a 40% ($\frac{20}{50}=0.4$) conversion. A general good rate of conversion for these is around 50% imo.
 
 
 ### Profit Boost
