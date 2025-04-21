@@ -136,4 +136,27 @@ You need to track your cash. Without some sort of ledger, cash might be disappea
 With Pikkit, I am assured that I have been placing the correct bets. Since a lot of lines are very similar, this gives me peace of mind that I pressed the right buttons outside of OddsJam. OddsJam also provides a ways to sync your sportsbooks, but I wanted both a manual and automatic to assure my intentions matched my actions.
 
 ## Limits & End of an Era :/
-If you talk to any sharp
+If you talk to any sharp sports bettor, they will tell you that a winning bettor will always get limited or even outright banned. In my case, bet sizes were around $400 at most on one line, and there are many sportsbooks I can no longer place that amount on.
+
+Limiting looks a little different per sportsbook, but the books that are not confident in their lines ("Recreational Sportsbooks" -- looking for recreational bettors) will limit your bet sizes to lower their risk. Some limits are not bad, and other times you can't place more than $2 on any line.
+
+I've been limited on the following and a general maximum bet is right after:
+- BetMGM ~$5
+- BetRivers ~$5
+- Fanatics (abused their daily promotions) ~$30
+- DraftKings (all but NBA, idk why) ~$20
+- ESPN Bet ~$20
+- Hard Rock Bet ~$20
+- FanDuel 10% -- I can wager 10% of what a typical user's max is. Most useable limit, NBA max win is around 200 which a wager can be a lot if the line is negative.
+
+Not limited on and why:
+- Fliff -- I don't think they limit, but they recently changed odds providers (Mid-March 2025) so less lucrative now
+- Caesars -- Opened later on and didn't place a ton of bets
+- Bet365 -- became legal in Illinois in mid March; I did place quite a few bets, but not limited yet. I would assume it would be coming to me soon though.
+
+There are also other lesser known sportsbooks and books that are exchanges, you bet against another person instead of the house. There are no limits on the exchanges since the platform is not risking thier own money.
+
+However, with my limits and the fact that I am moving to California for the summer (where online sportsbooks aren't legal yet). I decided to stop arbitraging for now. If I come back to Illinois afterwards, I probably will experiment more with a +EV strategy tailored a bit better to my liking. +EV is still possible with some of the $20 and $30 limits, since those would be the quarter Kelly criterion for a small-ish bankroll anyways.
+
+Thank you for taking the time to read this, and I hope it gives you some insight so you save time and make fewer mistakes.
+
